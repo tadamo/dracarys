@@ -1,0 +1,7 @@
+version: '2'
+services:
+  dracarys:
+    image: tadamo/dracarys
+    build:
+      context: .
+    container_name: dracarys
